@@ -29,8 +29,7 @@ To identify, analyze, and remove potentially harmful or unnecessary browser exte
 |------------|----------|-------------|--------------------|--------|
 | **Always Active Window – Always Visible** | Keeps windows always active | ⚠️ Medium | Spoofs browser visibility events; can cause abnormal behavior | **Removed** |
 | **Burp Suite Navigation Recorder** | Captures navigation paths for Burp Suite | ✅ Low | Legitimate tool for web-app testing | **Kept** |
-| **CGPA Calculator** | GPA calculator & chart | ⚠️ Medium | Unknown developer; unnecessary permissions | **Removed** |
-| **ChatGPT Assistant** | Opens ChatGPT in a pop-up window | ⚠️ Medium | Third-party; verify source before use | **Kept** (verified) |
+| **CGPA Calculator** | GPA calculator & chart | ⚠️ Medium | Unknown developer; unnecessary permissions | **-** |
 | **Dark Mode – Night Eye** | Adds dark theme for web pages | ✅ Low | Trusted productivity tool | **Kept** |
 | **Enable Copy Anywhere** | Bypasses copy restrictions | 🚨 High | Injects scripts; violates site policies | **Removed** |
 | **EPUBReader** | Reads EPUB files in-browser | ✅ Low | Safe; limited permissions | **Kept** |
@@ -38,14 +37,13 @@ To identify, analyze, and remove potentially harmful or unnecessary browser exte
 | **Google Docs Offline** | Enables offline editing | ✅ Low | Official Google extension | **Kept** |
 | **Google Scholar PDF Reader** | Enhances scholarly PDF reading | ✅ Low | Verified developer | **Kept** |
 | **SEOquake** | SEO metrics tool | ⚠️ Medium | Requires access to visited pages; check source | **Kept** (official) |
-| **Turbo VPN – Secure Free VPN Proxy** | Free VPN service | 🚨 High | Free VPNs may log data or inject ads | **Removed** |
 | **uBlock Origin Lite** | Ad & tracker blocker | ✅ Low | Trusted open-source blocker | **Kept** |
 
 ---
 
 ### 🔍 Findings  
-- **13 extensions** reviewed.  
-- **3 high-risk** extensions (**Turbo VPN**, **Enable Copy Anywhere**, **Always Active Window**) removed.  
+- **11 extensions** reviewed.  
+- **2 high-risk** extensions (*Enable Copy Anywhere**, **Always Active Window**) removed.  
 - Performance and browser startup speed improved.  
 - Remaining extensions are from **verified sources** and have justified permissions.  
 
